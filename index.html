@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Petting Zoo</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Lyon's Lions</h1>
+    </header>
+
+    <br>
+
+    <h2>Zoo Layout</h2>
+    <div class="zoo-map-container">
+        <div class="zoo-map">
+            <div class="bird-top"></div>
+            <div class="bird-bottom"></div>
+            <div class="rep"></div>
+            <div class="food"></div>
+            <div class="land-row2"></div>
+            <div class="land-middle"></div>
+            <div class="land-bottom"></div>
+            <div class="sea-top"></div>
+            <div class="sea-bottom"></div>
+            <div class="pet-top"></div>
+            <div class="pet-bottom"></div>
+        </div>
+
+        <div class="map-key">
+            <h3>Key</h3>
+            <div>
+                <div class="key-box purple"></div> - Bird House <br>
+                <div class="key-box red"></div> - Reptile House <br>
+                <div class="key-box brown"></div> - Food Court <br>
+                <div class="key-box green"></div> - Land Dwellers <br>
+                <div class="key-box blue"></div> - Sea Creatues <br>
+                <div class="key-box pink"></div> - Petting Zoo
+            </div>
+        </div>
+    </div>
+
+    <h2>Our Animals</h2>
+    <div class="our-animals">
+        <div class="carousel-container">            
+            <div class="carousel-display">
+                <img class="animal-image" id="animalImage" src="" alt="Animal">
+            </div>
+            
+            <div class="animal-info">
+                <div class="animal-label" id="animalLabel">Lion</div>
+                <div class="animal-count" id="animalCount">Quantity: 2</div>
+            </div>
+
+            <div class="counter" id="counter">1 / 10</div>
+
+            <br>
+            
+            <div class="carousel-controls">
+                <button id="prevBtn" type="button">← Previous</button>
+                <button id="nextBtn" type="button">Next →</button>
+            </div>
+        </div>
+    </div>
+
+    <h2>Food Court</h2>
+    <div class="food-court">
+        <div class="resturant">
+            <h3>Chick-Fil-A</h3>
+            <img src="./" alt="Chick-Fil-A Location Image">
+        </div>
+
+        <div class="resturant">
+            <h3>Freddy's Frozen Custard & Steakburgers</h3>
+            <img src="./" alt="Freddy's Frozen Custard & Steakburgers Location Image">
+        </div>
+
+        <div class="resturant">
+            <h3>In n' Out</h3>
+            <img src="./" alt="In n' Out Location Image">
+        </div>
+
+        <div class="resturant">
+            <h3>McDonald's</h3>
+            <img src="./" alt="McDonald's Location Image">
+        </div>
+
+        <div class="resturant">
+            <h3>Starbucks</h3>
+            <img src="./" alt="Starbucks Location Image">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; <span id="date"></span> - Nicolas Okuly</p>
+        <script>
+            document.getElementById("date").innerHTML = `${new Date().getFullYear()}`;
+        </script>
+    </footer>
+
+
+    <script src="./scripts/carousel.js"></script>
+</body>
+</html>
