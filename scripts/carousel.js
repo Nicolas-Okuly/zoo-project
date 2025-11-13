@@ -2,8 +2,7 @@ const animals = [
   {
     name: "Lions",
     count: 2,
-    image:
-      "",
+    image: "/zoo-project",
   },
   {
     name: "Turkeys",
@@ -38,7 +37,7 @@ const animals = [
   {
     name: "Bird House",
     count: 1,
-    image: "./imgs/bird_house.jpg",
+    image: "/zoo-project/imgs/bird_house.jpg",
   },
   {
     name: "Seals",
@@ -49,7 +48,7 @@ const animals = [
   {
     name: "Whale",
     count: 1,
-    image: "./imgs/bluewhale.jpg",
+    image: "/zoo-project/imgs/bluewhale.jpg",
   },
   {
     name: "Monkeys",
