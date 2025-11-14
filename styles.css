@@ -264,3 +264,16 @@ button:active {
     font-size: 1.25em;
     padding: 15px;
 }
+
+
+@media (max-width: 768px) {
+    .zoo-map-container {
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .zoo-map {
+        width: 250px;
+        height: 250px;
+    }
+}
