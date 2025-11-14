@@ -2,37 +2,37 @@ const animals = [
   {
     name: "Lions",
     count: 2,
-    image: "/zoo-project",
+    image: "/zoo-project/imgs/lion.jpg",
   },
   {
     name: "Turkeys",
     count: 10,
     image:
-      "https://images.unsplash.com/photo-1574116294627-a5e5a6a83c9e?w=800&h=600&fit=crop",
+      "/zoo-project/imgs/turkey.jpg",
   },
   {
     name: "Camels",
     count: 2,
     image:
-      "https://images.unsplash.com/photo-1551244072-5d12893278ab?w=800&h=600&fit=crop",
+      "/zoo-project/imgs/camel.png",
   },
   {
     name: "Asian Elephant",
     count: 1,
     image:
-      "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800&h=600&fit=crop",
+      "/zoo-project/imgs/elephant.jpeg",
   },
   {
     name: "Tiger",
     count: 1,
     image:
-      "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=800&h=600&fit=crop",
+      "/zoo-project/imgs/tiger.jpg",
   },
   {
     name: "Reptile House",
     count: 1,
     image:
-      "https://images.unsplash.com/photo-1549471053-23e0c1e05921?w=800&h=600&fit=crop",
+      "/zoo-project/imgs/reptile.jpg",
   },
   {
     name: "Bird House",
@@ -43,7 +43,7 @@ const animals = [
     name: "Seals",
     count: 2,
     image:
-      "https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=800&h=600&fit=crop",
+      "/zoo-project/imgs/seal.jpeg",
   },
   {
     name: "Whale",
@@ -54,13 +54,13 @@ const animals = [
     name: "Monkeys",
     count: 2,
     image:
-      "https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=800&h=600&fit=crop",
+      "/zoo-project/imgs/monkey.jpeg",
   },
   {
     name: "Cows",
     count: 3,
     image:
-      "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&h=600&fit=crop",
+      "/zoo-project/imgs/cow.jpeg",
   },
 ];
 
